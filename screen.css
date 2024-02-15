@@ -1,5 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
 
+:root {
+    --main-bg-color: white;
+    --primary-text-color: black;
+    --accent-color: red;
+}
+
+
 Body {
     font-family: "inter", sans-serif;
+    background: var(--main-bg-color);
+    color: var(--primary-text-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+}
+
+main {
+    background: url(polaroid.png) no-repeat center 100px;
+    margin: 0 auto;
+    width: 1000px;
 }
