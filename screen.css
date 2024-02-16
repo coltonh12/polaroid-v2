@@ -43,32 +43,33 @@ main {
     margin: 0;
 }
 
-.details ul Li {
+.details ul li {
     list-style-type: none;
     margin: 10px 0;
-    padding: 0 0 0 60px;
+    padding: 0 0 0 80px; /* Adjust padding to create space for the icon */
+    position: relative; /* Add relative positioning */
+}
+
+.details ul li.qr,
+.details ul li.cloud,
+.details ul li.shoot,
+.details ul li.share {
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: 20px center; /* Adjust the positioning to align the icon properly */
 }
 
-.details ul Li.qr {
-    background: url(wifi-solid\ 1.png) no-repeat center left;
+.details ul li.qr {
+    background-image: url(wifi-solid\ 1.png);
 }
 
-.details ul Li.cloud {
-    background: url(cloud-arrow-up-solid\ 1.png) no-repeat center left;
+.details ul li.cloud {
+    background-image: url(cloud-arrow-up-solid\ 1.png);
 }
 
-.details ul Li.shoot {
-    background: url(Frame\ 3.png) no-repeat center left;
+.details ul li.shoot {
+    background-image: url(Frame\ 3.png);
 }
 
-.details ul Li.share {
-    background: url(photo-film-solid\ 1.png) no-repeat center left;
-}
-
-.details {
-    text-align: center;
-    margin: 0 auto;
-    width: 80%;
+.details ul li.share {
+    background-image: url(photo-film-solid\ 1.png);
 }
