@@ -52,3 +52,7 @@ main {
 .details ul Li.qr {
     background: url(Frame\ 3.png) no-repeat center left;
 }
+
+.details ul Li.cloud {
+    background: url(wifi-solid\ 1.png) no-repeat center left;
+}
