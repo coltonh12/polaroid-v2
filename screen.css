@@ -50,15 +50,15 @@ main {
 }
 
 .details ul Li.qr {
-    background: url(Frame\ 3.png) no-repeat center left;
-}
-
-.details ul Li.cloud {
     background: url(wifi-solid\ 1.png) no-repeat center left;
 }
 
-.details ul Li.shoot {
+.details ul Li.cloud {
     background: url(cloud-arrow-up-solid\ 1.png) no-repeat center left;
+}
+
+.details ul Li.shoot {
+    background: url(Frame\ 3.png) no-repeat center left;
 }
 
 .details ul Li.share {
