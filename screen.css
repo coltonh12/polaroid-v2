@@ -43,7 +43,7 @@ main {
     margin: 0;
 }
 
-.details ul Li.qr {
+.details ul Li {
     background: url(Frame\ 3.png) no-repeat center left;
     list-style-type: none;
     margin: 10px 0;
