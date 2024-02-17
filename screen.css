@@ -79,3 +79,7 @@ main {
     text-align: center;
     font-size: 20px;
 }
+
+.ctat input[type="button"] {
+    background-color: red;
+}
