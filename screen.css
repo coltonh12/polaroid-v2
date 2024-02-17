@@ -49,7 +49,7 @@ main {
     margin: 10px 0;
     padding: 0 0 0 60px;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: 60px center;
 }
 
 .details ul Li.qr {
